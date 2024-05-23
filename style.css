@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-6 {
+  background-color: transparent;
+  width: auto;
+  position: relative;
+}
+
+body {
+  font-family: 'Poppins';
+}
+#test_img{
+  width: 500px;
+}
+#recent_head{
+  font-size: 45px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+}
+#recent_btn{
+  margin-top: 70px;
+  width: 160px;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+}
+
+.test_h1 {
+  font-size: 40px;
+  color: rgb(15, 15, 20);
+  font-weight: 900;
+  position: relative;
+
+}
+.heading_ser{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 60px;
+  background-color: transparent; 
+  font-weight: bolder;
+  position: relative;
+}
+.card{
+  background: transparent !important;
+}
+.test_h1::before {
+  content: '';
+  width: 10px;
+  height: 40px;
+  display: block;
+  background-color: rgb(226, 174, 4);
+  position: absolute;
+  left: 40%;
+  top: 7%;
+}
+.card-img, .card-img-bottom, .card-img-top {
+  height: 280px;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.card-text:last-child {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 2px;
+  border-bottom: none; 
+  border-width: 0px;
+  
+
+}
+#service_line{
+  height: 1.5px;
+  background-color: #ffb607;
+  border-width: 0;
+
+
+}
+.card{
+  border: none;
+  position: relative;
+}
+
+.rec_h1 {
+  font-size: 35px;
+  color: rgb(15, 15, 20);
+  font-weight: 700;
+}
+#button_ser{
+  width: 180px;
+  position: absolute;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  top: 260px;
+ left: 109px;
+  align-self: center;
+}
+.rec_h1::before {
+  content: '';
+  width: 10px;
+  height: 40px;
+  display: block;
+  background-color: rgb(226, 174, 4);
+  position: absolute;
+  left: 39%;
+  top: 8%;
+
+}
+
+.con_h1 {
+  font-size: 38px;
+  color: rgb(15, 15, 20);
+  font-weight: 700;
+  position: relative;
+
+}
+
+.con_h1::before {
+  content: '';
+  width: 10px;
+  height: 43px;
+  display: block;
+  background-color: rgb(226, 174, 4);
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+
+#services_card{
+  padding-bottom: 70px;
+
+
+}
+
+
+
+.heading_ser::before {
+
+  content: '';
+  width: 10px;
+  height: 52px;
+  display: block;
+  background-color: rgb(226, 174, 4);
+  position: absolute;
+  left: 39%;
+  top: 9%;
+
+}
+.card-img, .card-img-bottom, .card-img1{
+  height: 325px;
+  width: 308px;
+  border-radius: 12px;
+}
+
+.navbar {
+  background-color: rgb(111 52 215);
+  height: 62px;
+  width: 791px;
+  padding: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.btn-success {
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+.btn-success:hover {
+  color: rgb(252, 251, 250) !important;
+  font-size: 18px;
+  width: 200px;
+  background-color: rgb(255, 200, 0) !important;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: rgb(255, 254, 255) !important;
+  background-color: rgb(245, 172, 1) !important;
+  font-size: 18px;
+  height: 57px;
+  text-align: center;
+
+
+}
+
+.container-fluid {
+  height: 700px;
+  position: relative;
+}
+
+#demo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pian_h1 {
+  font-size: 70px;
+  font-weight: 1000;
+  color: white;
+}
+
+.para_pian {
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary {
+  color: yellow;
+}
+
+
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 700px;
+  height: 700px;
+
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  border: 5px solid #f4a804;
+}
+
+
+
+
+#button_ser:hover,
+#recent_btn:hover {
+  color: white;
+  background-color: rgb(222, 198, 10);
+}
+
+.custom-btn#btn2:hover {
+  color: white;
+  background-color: rgb(10, 70, 222);
+}
+
+.custom-btn#btn4:hover {
+  color: white;
+  background-color: rgb(192, 79, 4);
+}
+
+
+.custom-btn#btn4 {
+  color: rgb(243, 246, 248);
+  background-color: rgb(241, 188, 17);
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  border-radius: 2px solid white;
+}
+
+#about_container {
+  height: 500px;
+}
+
+#about_h1 {
+  font-size: 45px;
+  font-size: 38px;
+  font-weight: 700;
+  position: relative;
+}
+
+#about_h1::before {
+
+  content: '';
+  width: 10px;
+  height: 40px;
+  display: block;
+  background-color: rgb(226, 174, 4);
+  position: absolute;
+  right: 102%;
+  top: 9%;
+
+}
+
+#btn6 {
+  color: rgb(243, 246, 248);
+  background-color: rgb(241, 188, 17);
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px solid white;
+  border-radius: 20px;
+  position: absolute;
+  top: 287%;
+  left: 46%;
+}
+
+#ser_para {
+  text-align: center;
+}
+
+#recent_img {
+  border-radius: 10px;
+  width: 270px;
+  height: 250px;
+}
+
+#recent_button {
+  background-color: rgb(255, 170, 0);
+  width: 180px;
+  color: white;
+  border-radius: 20px;
+}
+#test_container{
+  padding-bottom: 70px;
+}
+
+#test_div {
+  border: 2px solid rgb(152, 151, 151);
+  width: 850px;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+}
+
+#text_h2 {
+  color: rgb(255, 179, 0);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#test_para {
+  font-size: 14px;
+}
+
+#Y_N {
+  border-top: 0px;
+  border-left: 0;
+  border-right: 0;
+  width: 500px;
+  opacity: 1;
+  background: none;
+
+
+}
+
+
+#contact_div {
+  background-image: url(".//images/contact-bg.png");
+  height: 456px;
+}
+
+#cont_btn {
+  width: 100px;
+  border-radius: 18px;
+}
+
+#info_div {
+  background-color: black;
+  height: 280px;
+  width: 1000;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: rgb(255, 162, 0);
+}
+
+li span {
+  color: white;
+}
+
+
+
+#yourmail {
+  border: 2px solid black;
+  border-radius: none;
+  width: 205px;
+  padding: 7px;
+  height: 40px;
+
+}
+
+#news_btn {
+  background-color: rgb(255, 183, 0);
+  color: white;
+  padding: 7px;
+  height: 40px;
+}
+
+.vl {
+  border-left: 3px solid rgb(242 241 237);
+  height: 190px;
+  position: absolute;
+  left: 65%;
+  top: 16%;
+}
+
+.v2 {
+  border-left: 3px solid rgb(242 241 237);
+  height: 190px;
+  position: absolute;
+  left: 32%;
+  top: 16%;
+}
+
+#re_p2 {
+  position: absolute;
+  top: 260%;
+  left: 45%;
+  color: rgb(255, 253, 253);
+}
+
+#re_p3 {
+  position: absolute;
+  top: 260%;
+  left: 60%;
+  color: rgb(255, 253, 253);
+}
+
+#re_p1 {
+  position: absolute;
+  top: 260%;
+  left: 30%;
+  color: rgb(255, 253, 253);
+}
